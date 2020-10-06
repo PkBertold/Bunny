@@ -21,7 +21,7 @@ def szovegFordit(szoveg):
 	# Ide írd meg az eljárást!
 	return ""
 	
-# Az eljárást készítette:	
+# Az eljárást készítette: Sipos Péter	
 def szovegCsere(szoveg):
 	# Ide írd meg az eljárást!
 	return ""
