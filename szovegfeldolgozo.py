@@ -18,18 +18,24 @@ def szovegFordit(szöveg):
 """
 # Az eljárást készítette:
 def szovegFordit(szoveg):
-	# Ide írd meg az eljárást!
-	return ""
+FordSzoveg=""
+	for x in range(0,len(szoveg)-1,-1,-1):
+	fordSzoveg+=szoveg[x]
+	return fordSzoveg
 	
 # Az eljárást készítette: Sipos Péter	
 def szovegCsere(szoveg):
-	# Ide írd meg az eljárást!
+	maganHango="aáeéoóöőuúüűiíAÁEÉEÉOÓÖŐUÚÜŰIÍ2
+	for x in range(0, len(maganHango)):
+		szoveg.replace(maganhangzo[x],"e");
 	return ""
 	
-# Az eljárást készítette:	
 def szovegParos(szoveg):
-	# Ide írd meg az eljárást!
-	return ""
+szovegParos=""
+	szovegParos = ("bdfhjlnqsuwy")
+	for x in range(0,len(szoveg)-1,2):
+		szovegParos+=szoveg[x]
+	return SzovegParos
 	
 # Az eljárást készítette:	
 def szovegParatlan(szoveg):
