@@ -25,7 +25,7 @@ FordSzoveg=""
 	
 # Az eljárást készítette: Sipos Péter	
 def szovegCsere(szoveg):
-	maganHango="aáeéoóöőuúüűiíAÁEÉEÉOÓÖŐUÚÜŰIÍ2
+	maganHango="aáeéoóöőuúüűiíAÁEÉEÉOÓÖŐUÚÜŰIÍ"
 	for x in range(0, len(maganHango)):
 		szoveg.replace(maganhangzo[x],"e");
 	return ""
