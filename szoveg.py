@@ -16,6 +16,13 @@ def szovegParos(szoveg):
 		parosSzoveg += szoveg[x]
 	return parosSzoveg
 	
+def szovegParatlan(szoveg):
+	szovegParos=""
+	szovegParatlan = ("acegikmoqstvxz")
+	for x in range(0,len(szoveg)-1,1):
+		szovegParatlan+=szoveg[x]
+	return szovegParatlan
+	
 szoveg=input("Írj be egy szöveget:")
 print(szovegFordit(szoveg))
 print(szovegCsere(szoveg))
