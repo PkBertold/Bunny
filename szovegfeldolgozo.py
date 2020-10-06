@@ -37,10 +37,12 @@ szovegParos=""
 		szovegParos+=szoveg[x]
 	return SzovegParos
 	
-# Az eljárást készítette:	
-def szovegParatlan(szoveg):
-	# Ide írd meg az eljárást!
-	return ""
+def szovegParos(szoveg):
+szovegParos=""
+	szovegParos = ("acegikmoqstvxz")
+	for x in range(0,len(szoveg)-1,1):
+		szovegParos+=szoveg[x]
+	return SzovegParos
 	
 # Itt kezdődik a főprogram
 szoveg=input("Írj be egy szöveget:")
